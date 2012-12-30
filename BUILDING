@@ -1,0 +1,4 @@
+sudo port install cgal cmake
+cgal_create_CMakeLists -s example
+cmake -DCGAL_DIR=/opt/local/lib/cmake
+make
